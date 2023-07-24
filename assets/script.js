@@ -1,9 +1,8 @@
 let time = document.getElementById('times');
 let highScore = document.getElementById('hiSco');
 let start = document.getElementById('start');
-
+let intro = document.getElementsByClassName('intros');
 let timer = 60;
-
 
 function countdown() {
     let interval = setInterval(function() {
@@ -20,6 +19,16 @@ start.addEventListener('click', startGame)
 
   function startGame() {
     countdown();
-    start.style.display = 'none';
+    intro[0].style.display = 'none';
     showQuestions();
     }
+
+
+
+
+
+
+
+
+
+   

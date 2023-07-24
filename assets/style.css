@@ -32,3 +32,7 @@ main button:hover {
     color: white;
     border-radius: 20px;
 }
+main li{
+    list-style: none;
+   align-items: center;
+}
