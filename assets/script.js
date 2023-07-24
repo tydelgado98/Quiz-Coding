@@ -4,7 +4,8 @@ let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let timer = 60;
 let score = 0;
-let questions = document.getElementById('question');
+let questionEl = document.getElementById('questions');
+let answerEl = document.getElementById('answers');
 
 
 function countdown() {
@@ -23,15 +24,20 @@ start.addEventListener('click', startGame)
   function startGame() {
     countdown();
     intro[0].style.display = 'none';
-    // showQuestions();
+    console.log('started');
+   showQuestions();
     }
 
-// function showQuestions() {
-//   questions.innerHTML = '';
-//   for (let i = 0; i < question.length; i++) {
 
- 
-// }
+function showQuestions() {
+  for (let i = 0; i < question.length; i++) {
+    questionEl.textContent = question[i].question;
+    }
+
+          
+         
+    
+}
 
 // function checkAnswer() {
   //}
