@@ -4,6 +4,7 @@ let start = document.getElementById('start');
 
 let timer = 60;
 
+
 function countdown() {
     let interval = setInterval(function() {
        timer--;
@@ -15,4 +16,10 @@ function countdown() {
     }, 1000);
         }
         
-start.addEventListener('click', countdown) 
+start.addEventListener('click', startGame) 
+
+  function startGame() {
+    countdown();
+    start.style.display = 'none';
+    showQuestions();
+    }
