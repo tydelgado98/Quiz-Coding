@@ -33,10 +33,9 @@ function showQuestions() {
   for (let i = 0; i < question.length; i++) {
     questionEl.textContent = question[i].question;
     }
-
-          
-         
-    
+  for (let i = 0; i < question.length; i++) {
+    answerEl.textContent = question[i].answers;
+    }
 }
 
 // function checkAnswer() {
@@ -51,6 +50,15 @@ function showQuestions() {
             {text: 'San Francisco', correct: false},
             {text: 'San Diego', correct: false}
         ] 
+    },
+    {
+        question: 'What is the capital of Texas?',
+        answers: [
+            {text: 'Houston', correct: false},
+            {text: 'Dallas', correct: false},
+            {text: 'Austin', correct: true},
+            {text: 'San Antonio', correct: false}
+        ]
     },
   ];
 
