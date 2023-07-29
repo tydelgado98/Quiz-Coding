@@ -38,20 +38,20 @@ start.addEventListener('click', startGame)
 // }
 
 function showQuestions() {
-  questionEl.textContent = question[currQuestion].question;
+  questionEl.textContent = questionSec[currQuestion].question;
   showAnswers();
 }
 
 function showAnswers() {
-  for (let i = 0; i < question.length; i++) {
-    answerEl.textContent = question[i].answers;
+  for (let i = 0; i < questionSec.length; i++) {
+    answerEl.textContent = questionSec[i].answers;
     }
 
 }
 // function checkAnswer() {
   //}
 
- let question = [
+ let questionSec = [
     {
         question: 'What is the capital of California?',
         answers: [
