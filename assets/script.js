@@ -7,6 +7,7 @@ let score = 0;
 let questionEl = document.getElementById('questions');
 let answerEl = document.getElementById('answers');
 
+let currQuestion = 0;
 
 function countdown() {
     let interval = setInterval(function() {
@@ -29,15 +30,24 @@ start.addEventListener('click', startGame)
     }
 
 
+// function showQuestions() {
+//   for (let i = 0; i < question.length; i++) {
+//     questionEl.textContent = question[i].question;
+//     }
+//      showAnswers();
+// }
+
 function showQuestions() {
-  for (let i = 0; i < question.length; i++) {
-    questionEl.textContent = question[i].question;
-    }
+  questionEl.textContent = question[currQuestion].question;
+  showAnswers();
+}
+
+function showAnswers() {
   for (let i = 0; i < question.length; i++) {
     answerEl.textContent = question[i].answers;
     }
-}
 
+}
 // function checkAnswer() {
   //}
 
