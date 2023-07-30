@@ -48,3 +48,9 @@ main li{
     font-size: 30px;
     color: black;
 }
+#answers button{
+    margin: 1%;
+    background-color: black;
+    color: white;
+    transition: 0.9s;
+}
