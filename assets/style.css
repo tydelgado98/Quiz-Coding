@@ -20,6 +20,7 @@ main button:hover {
     padding: 10px;
     opacity: 70%;
     transform: scale(1.4);
+    cursor: pointer;
 }
 #links a{
     text-decoration: none;
