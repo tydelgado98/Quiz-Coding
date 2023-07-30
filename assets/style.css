@@ -31,14 +31,9 @@ main button:hover {
     padding: 20px;
 }
 #links{
-    margin-top: 1%;
     color: white;
-    border-radius: 20px;
 }
-main li{
-    list-style: none;
-   align-items: center;
-}
+
 #questions{
     margin: 5%;
     text-align: center;
