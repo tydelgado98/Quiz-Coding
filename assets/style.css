@@ -13,6 +13,7 @@ main button {
     border-radius: 20px;
     padding: 10px;
     transition: 0.9s;
+    font-size: 20px;
 }
 main button:hover {
     background-color: black;
