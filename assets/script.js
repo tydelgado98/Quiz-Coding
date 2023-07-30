@@ -51,7 +51,6 @@ answerEl.innerHTML = '';
   Abutton.textContent = currAnswer[i].text;
   answerEl.appendChild(Abutton);
 }
-
 }
 
 
