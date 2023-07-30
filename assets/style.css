@@ -60,5 +60,6 @@ main li{
     background-color: black;
     color: white;
     padding: 10px;
-   
+    opacity: 70%;
+    transform: scale(1.4);
 }
