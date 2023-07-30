@@ -4,10 +4,7 @@ let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let timer = 60;
 let score = 0;
-let questionEl = document.getElementById('questions');
-let answerEl = document.getElementById('answers');
 
-let currQuestion = 0;
 
 function countdown() {
     let interval = setInterval(function() {
@@ -17,7 +14,7 @@ function countdown() {
             clearInterval(interval);
             alert('Game Over');
             }
-    }, 1000);
+    }, 800);
         }
         
 start.addEventListener('click', startGame) 
@@ -30,12 +27,15 @@ start.addEventListener('click', startGame)
     }
 
 
-// function showQuestions() {
-//   for (let i = 0; i < question.length; i++) {
-//     questionEl.textContent = question[i].question;
-//     }
-//      showAnswers();
-// }
+
+
+
+
+
+let questionEl = document.getElementById('questions');
+let answerEl = document.getElementById('answers');
+
+let currQuestion = 0;
 
 function showQuestions() {
   questionEl.textContent = questionSec[currQuestion].question;
@@ -43,13 +43,17 @@ function showQuestions() {
 }
 
 function showAnswers() {
-  for (let i = 0; i < questionSec.length; i++) {
-    answerEl.textContent = questionSec[i].answers;
-    }
+ let currAnswer = questionSec[currQuestion].answers;
+answerEl.innerHTML = '';
+
+  for (let i = 0; i < currAnswer.length; i++) {
+ let Abutton = document.createElement('button');
+  Abutton.textContent = currAnswer[i].text;
+  answerEl.appendChild(Abutton);
+}
 
 }
-// function checkAnswer() {
-  //}
+
 
  let questionSec = [
     {
