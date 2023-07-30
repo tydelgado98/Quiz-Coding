@@ -1,9 +1,13 @@
-let time = document.getElementById('times');
+/// Variables ///
 let highScore = document.getElementById('hiSco');
 let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
-let timer = 60;
 let score = 0;
+
+/// Timer Section ///
+
+let time = document.getElementById('times');
+let timer = 60;
 
 
 function countdown() {
@@ -27,10 +31,7 @@ start.addEventListener('click', startGame)
     }
 
 
-
-
-
-
+/// Questions and Answers ///
 
 let questionEl = document.getElementById('questions');
 let answerEl = document.getElementById('answers');
@@ -75,11 +76,3 @@ answerEl.innerHTML = '';
     },
   ];
 
-
-
-
-
-
-
-
-   
