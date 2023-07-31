@@ -91,7 +91,6 @@ function showAnswers() {
         console.log("You Chose wrong, your score is: " + score + "points");
     }
     currentQuestion++;
-    showQuestions();
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
       clearInterval(interval);
