@@ -86,6 +86,9 @@ answerEl.innerHTML = '';
         score++;
         console.log(score);
     }
+    else {
+        timer -= 20;
+    }
    
   }
   );
