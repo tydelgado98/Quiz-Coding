@@ -97,6 +97,7 @@ function showAnswers() {
     console.log('Game Over');
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
+    console.log("Start over if you want to play again");
       }
       else {
         showQuestions();
