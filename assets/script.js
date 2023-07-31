@@ -97,6 +97,8 @@ function showAnswers() {
       clearInterval(interval);
       }
       else {
+        showQuestions();
+      }
   }
   
 
