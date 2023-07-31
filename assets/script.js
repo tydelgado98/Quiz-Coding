@@ -103,7 +103,7 @@ function showAnswers() {
 },
   ];
 
-  answerEl.addEventListener('click', function(event) {
+  let checkAnswer = answerEl.addEventListener('click', function(event) {
 
     chosenAnswer = event.target.textContent;
     let correctAnswer = questionSection[currentQuestion].answers.find(answer => answer.correct).text;
