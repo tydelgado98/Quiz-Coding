@@ -88,11 +88,9 @@ answerEl.innerHTML = '';
     } else {
         timer -= 20;
     }
-     if (timer === 0) {
-    clearInterval(interval);
-    alert('Game Over');
-    }
+    if (timer > 0) {
+      clearInterval(interval);
+      alert('Game Over');
+      }
   }
- 
-
   );
