@@ -80,5 +80,8 @@ function checkAnswer {
     if (currAnswer === true) {
         score++;
     }
+    else {
+        timer - 10;
+    }
     
 }
