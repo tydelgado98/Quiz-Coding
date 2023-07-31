@@ -41,6 +41,7 @@ let currQuestion = 0;
 function showQuestions() {
   questionEl.textContent = questionSec[currQuestion].question;
   showAnswers();
+  checkAnswer();
 }
 
 function showAnswers() {
