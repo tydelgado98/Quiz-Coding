@@ -82,7 +82,10 @@ answerEl.innerHTML = '';
     correctAnswer = questionSec[currQuestion].answers[0].text;
     console.log(chosenAnswer);
     console.log(correctAnswer);
-    
+    if (chosenAnswer === correctAnswer) {
+        score++;
+        console.log(score);
+    }
    
   }
   );
