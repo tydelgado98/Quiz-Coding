@@ -11,7 +11,7 @@ let timer = 60;
 
 
 function countdown() {
-    let interval = setInterval(function() {
+    var interval = setInterval(function() {
        timer--;
        time.textContent = timer + ' seconds remaining';
          if (timer === 0) {
@@ -93,11 +93,10 @@ function showAnswers() {
     currentQuestion++;
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
-    
+    timer = 1;
       }
       else {
         showQuestions();
       }
   }
-
   );
