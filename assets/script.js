@@ -89,5 +89,8 @@ answerEl.innerHTML = '';
         timer -= 20;
     }
     currQuestion++;
+    if (currQuestion < questionSec.length) {
+        showQuestions();
+    }
   }
   );
