@@ -80,6 +80,9 @@ answerEl.innerHTML = '';
 
     chosenAnswer = event.target.textContent;
     correctAnswer = questionSec[currQuestion].answers[0].text;
+    console.log(chosenAnswer);
+    console.log(correctAnswer);
+    
    
   }
   );
