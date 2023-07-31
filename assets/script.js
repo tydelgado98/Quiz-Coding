@@ -76,3 +76,9 @@ answerEl.innerHTML = '';
     },
   ];
 
+function checkAnswer {
+    if (currAnswer === true) {
+        score++;
+    }
+    
+}
