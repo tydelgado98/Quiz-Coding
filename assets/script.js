@@ -78,6 +78,11 @@ function showAnswers() {
         question: 'What is the capital of New York?',
         answers: [
             {text: 'Buffalo', correct: false},
+            {text: 'Albany', correct: true},
+            {text: 'New York City', correct: false},
+            {text: 'Rochester', correct: false}
+        ]
+    },
   ];
 
   answerEl.addEventListener('click', function(event) {
