@@ -83,5 +83,6 @@ function checkAnswer {
     else {
         timer - 10;
     }
-    
+    currQuestion++;
+    showQuestions();
 }
