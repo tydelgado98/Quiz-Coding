@@ -85,13 +85,11 @@ answerEl.innerHTML = '';
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log(score);
+        
     } else {
         timer -= 20;
         console.log("wrong");
     }
-    currQuestion++;
-    if (currQuestion < questionSec.length) {
-        showQuestions();
-    }
+   
   }
   );
