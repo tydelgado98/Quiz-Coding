@@ -79,6 +79,7 @@ answerEl.innerHTML = '';
   answerEl.addEventListener('click', function(event) {
 
     chosenAnswer = event.target.textContent;
+    correctAnswer = questionSec[currQuestion].answers[0].text;
    
   }
   );
