@@ -88,8 +88,8 @@ function showAnswers() {
       answers: [
           {text: 'Tampa', correct: false},
           {text: 'Tallahasee', correct: true},
-          {text: 'New York City', correct: false},
-          {text: 'Rochester', correct: false}
+          {text: 'Orlando', correct: false},
+          {text: 'Miami', correct: false}
       ]
   },
   {
