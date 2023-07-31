@@ -94,6 +94,7 @@ function showAnswers() {
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
     clearInterval(interval);
+    console.log('Game Over');
       }
       else {
         showQuestions();
