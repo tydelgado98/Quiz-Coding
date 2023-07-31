@@ -87,6 +87,7 @@ answerEl.innerHTML = '';
         console.log(score);
     } else {
         timer -= 20;
+        log("wrong");
     }
     currQuestion++;
     if (currQuestion < questionSec.length) {
