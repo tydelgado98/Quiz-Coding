@@ -97,7 +97,7 @@ function showAnswers() {
     answers: [
         {text: 'Boston', correct: false},
         {text: 'Cape Cod', correct: true},
-        {text: 'New York City', correct: false},
+        {text: 'Springfield', correct: false},
         {text: 'Holyoke', correct: false}
     ]
 },
