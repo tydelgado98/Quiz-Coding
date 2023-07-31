@@ -80,15 +80,15 @@ answerEl.innerHTML = '';
 
     chosenAnswer = event.target.textContent;
     let correctAnswer = questionSec[currQuestion].answers.find(answer => answer.correct).text;
-    console.log("Chosen Answer" + chosenAnswer);
-    console.log(correctAnswer);
+    console.log("Chosen Answer: " + chosenAnswer);
+    console.log("Correct Answer: " + correctAnswer);
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log("your Score is:  " + score + "points");
     }
     else {
         timer -= 20;
-        console.log("wronggg");
+        console.log("You Chose wrong, your score is: " + score + "points");
     }
     currQuestion++;
     showQuestions();
