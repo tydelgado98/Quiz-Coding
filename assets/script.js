@@ -95,10 +95,10 @@ function showAnswers() {
   {
     question: 'What is the capital of Massachuesetts?',
     answers: [
-        {text: 'Buffalo', correct: false},
-        {text: 'Albany', correct: true},
+        {text: 'Boston', correct: false},
+        {text: 'Cape Cod', correct: true},
         {text: 'New York City', correct: false},
-        {text: 'Rochester', correct: false}
+        {text: 'Holyoke', correct: false}
     ]
 },
   ];
