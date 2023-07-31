@@ -36,26 +36,26 @@ start.addEventListener('click', startGame)
 let questionEl = document.getElementById('questions');
 let answerEl = document.getElementById('answers');
 
-let currQuestion = 0;
+let currentQuestion = 0;
 
 function showQuestions() {
-  questionEl.textContent = questionSec[currQuestion].question;
+  questionEl.textContent = questionSection[currentQuestion].question;
   showAnswers();
 }
 
 function showAnswers() {
- let currAnswer = questionSec[currQuestion].answers;
-answerEl.innerHTML = '';
+ let currentAnswer = questionSection[currentQuestion].answers;
+ answerEl.innerHTML = '';
 
-  for (let i = 0; i < currAnswer.length; i++) {
+  for (let i = 0; i < currentAnswer.length; i++) {
  let Abutton = document.createElement('button');
-  Abutton.textContent = currAnswer[i].text;
+  Abutton.textContent = currentAnswer[i].text;
   answerEl.appendChild(Abutton);
 }
 }
 
 
- let questionSec = [
+ let questionSection = [
     {
         question: 'What is the capital of California?',
         answers: [
@@ -79,7 +79,7 @@ answerEl.innerHTML = '';
   answerEl.addEventListener('click', function(event) {
 
     chosenAnswer = event.target.textContent;
-    let correctAnswer = questionSec[currQuestion].answers.find(answer => answer.correct).text;
+    let correctAnswer = questionSection[currentQuestion].answers.find(answer => answer.correct).text;
     console.log("Chosen Answer: " + chosenAnswer);
     console.log("Correct Answer: " + correctAnswer);
     if (chosenAnswer === correctAnswer) {
@@ -90,7 +90,7 @@ answerEl.innerHTML = '';
         timer -= 20;
         console.log("You Chose wrong, your score is: " + score + "points");
     }
-    currQuestion++;
+    currentQuestion++;
     showQuestions();
   }
   );
