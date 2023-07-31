@@ -3,7 +3,7 @@ let highScore = document.getElementById('hiSco');
 let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let score = 0;
-
+let interval;
 /// Timer Section ///
 
 let time = document.getElementById('times');
@@ -11,7 +11,7 @@ let timer = 60;
 
 
 function countdown() {
-    var interval = setInterval(function() {
+  interval = setInterval(function() {
        timer--;
        time.textContent = timer + ' seconds remaining';
          if (timer === 0) {
@@ -93,7 +93,7 @@ function showAnswers() {
     currentQuestion++;
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
-    clearInterval(timer);
+    clearInterval(interval);
       }
       else {
         showQuestions();
