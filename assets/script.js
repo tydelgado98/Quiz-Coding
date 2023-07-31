@@ -84,10 +84,11 @@ answerEl.innerHTML = '';
     console.log(correctAnswer);
     if (chosenAnswer === correctAnswer) {
         score++;
-        console.log(score);
+        console.log("your Score is:" + score);
     }
     else {
         timer -= 20;
+        console.log("wronggg");
     }
     currQuestion++;
     showQuestions();
