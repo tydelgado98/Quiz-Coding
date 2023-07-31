@@ -93,7 +93,7 @@ function showAnswers() {
     currentQuestion++;
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
-    timer = 1;
+    clearInterval(interval);
       }
       else {
         showQuestions();
