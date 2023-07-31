@@ -87,7 +87,7 @@ function showAnswers() {
       question: 'What is the capital of Florida?',
       answers: [
           {text: 'Tampa', correct: false},
-          {text: 'Albany', correct: true},
+          {text: 'Tallahasee', correct: true},
           {text: 'New York City', correct: false},
           {text: 'Rochester', correct: false}
       ]
