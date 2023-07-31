@@ -114,7 +114,7 @@ function showAnswers() {
         console.log("your Score is:  " + score + "points");
     }
     else {
-        timer -= 20;
+        timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
     }
     currentQuestion++;
