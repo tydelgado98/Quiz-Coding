@@ -89,5 +89,9 @@ answerEl.innerHTML = '';
         timer -= 20;
     }
   }
-  
+  if (timer === 0) {
+    clearInterval(interval);
+    alert('Game Over');
+    }
+
   );
