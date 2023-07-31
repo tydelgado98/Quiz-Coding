@@ -84,9 +84,9 @@ function showAnswers() {
         ]
     },
     {
-      question: 'What is the capital of New York?',
+      question: 'What is the capital of Florida?',
       answers: [
-          {text: 'Buffalo', correct: false},
+          {text: 'Tampa', correct: false},
           {text: 'Albany', correct: true},
           {text: 'New York City', correct: false},
           {text: 'Rochester', correct: false}
