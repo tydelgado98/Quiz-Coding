@@ -78,18 +78,7 @@ answerEl.innerHTML = '';
 
   answerEl.addEventListener('click', function(event) {
 
-    let chosenAnswer = event.target.textContent;
-    let correctAnswer = questionSec[currQuestion].answers.find(answer => answer.correct);
-    console.log(chosenAnswer);
-    console.log(correctAnswer);
-    if (chosenAnswer === correctAnswer) {
-        score++;
-        console.log(score);
-        
-    } else {
-        timer -= 20;
-        console.log("wrong");
-    }
+    
    
   }
   );
