@@ -78,7 +78,7 @@ answerEl.innerHTML = '';
 
   answerEl.addEventListener('click', function(event) {
 
-    
+    chosenAnswer = event.target.textContent;
    
   }
   );
