@@ -92,10 +92,11 @@ function showAnswers() {
     }
     currentQuestion++;
     showQuestions();
-    if (currentQuestion > questionSection.length) {
+    if (currentQuestion === questionSection.length) {
       alert('Game Over');
       clearInterval(interval);
       }
+      else {
   }
   
 
