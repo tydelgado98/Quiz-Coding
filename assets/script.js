@@ -93,12 +93,11 @@ function showAnswers() {
     currentQuestion++;
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
-     time.textContent = 'Game Over';
+    
       }
       else {
         showQuestions();
       }
   }
-  
 
   );
