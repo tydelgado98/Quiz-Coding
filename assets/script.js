@@ -80,11 +80,11 @@ answerEl.innerHTML = '';
 
     chosenAnswer = event.target.textContent;
     let correctAnswer = questionSec[currQuestion].answers.find(answer => answer.correct).text;
-    console.log(chosenAnswer);
+    console.log("Chosen Answer" + chosenAnswer);
     console.log(correctAnswer);
     if (chosenAnswer === correctAnswer) {
         score++;
-        console.log("your Score is:" + score);
+        console.log("your Score is:  " + score + "points");
     }
     else {
         timer -= 20;
