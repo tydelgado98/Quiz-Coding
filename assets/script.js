@@ -41,7 +41,7 @@ let currQuestion = 0;
 function showQuestions() {
   questionEl.textContent = questionSec[currQuestion].question;
   showAnswers();
-  checkAnswer();
+  
 }
 
 function showAnswers() {
@@ -77,13 +77,3 @@ answerEl.innerHTML = '';
     },
   ];
 
-function checkAnswer(currAnswer) {
-    if (currAnswer === true) {
-        score++;
-    }
-    else {
-        timer - 10;
-    }
-    currQuestion++;
-    showQuestions();
-}
