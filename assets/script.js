@@ -76,7 +76,7 @@ answerEl.innerHTML = '';
     },
   ];
 
-function checkAnswer {
+function checkAnswer(currAnswer) {
     if (currAnswer === true) {
         score++;
     }
