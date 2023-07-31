@@ -95,6 +95,8 @@ function showAnswers() {
       alert('Game Over');
     clearInterval(interval);
     console.log('Game Over');
+    console.log('Your Score is: ' + score + 'points');
+    console.log('Your Time is: ' + timer + 'seconds');
       }
       else {
         showQuestions();
