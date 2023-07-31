@@ -79,7 +79,7 @@ answerEl.innerHTML = '';
   answerEl.addEventListener('click', function(event) {
 
     let chosenAnswer = event.target.textContent;
-    let correctAnswer = questionSec[currQuestion].answers;
+    let correctAnswer = questionSec[currQuestion].answers.find(answer => answer.correct);
     console.log(chosenAnswer);
     console.log(correctAnswer);
     if (chosenAnswer === correctAnswer) {
@@ -87,7 +87,7 @@ answerEl.innerHTML = '';
         console.log(score);
     } else {
         timer -= 20;
-        log("wrong");
+        console.log("wrong");
     }
     currQuestion++;
     if (currQuestion < questionSec.length) {
