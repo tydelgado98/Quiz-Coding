@@ -79,7 +79,7 @@ answerEl.innerHTML = '';
   answerEl.addEventListener('click', function(event) {
 
     chosenAnswer = event.target.textContent;
-    correctAnswer = questionSec[currQuestion].answers[0].text;
+    let correctAnswer = questionSec[currQuestion].answers.find(answer => answer.correct).text;
     console.log(chosenAnswer);
     console.log(correctAnswer);
     if (chosenAnswer === correctAnswer) {
@@ -91,6 +91,5 @@ answerEl.innerHTML = '';
     }
     currQuestion++;
     showQuestions();
-   
   }
   );
