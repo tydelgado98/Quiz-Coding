@@ -121,10 +121,11 @@ let answerFeed = document.getElementById('answerTxt')
     else {
         timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
+        answerFeed.textContent = "Wrong!";
     }
    
     currentQuestion++;
-    
+
     setTimeout(() => {
       answerFeed.textContent = "";
   }, 2000);
