@@ -13,7 +13,7 @@ let timer = 60;
 function countdown() {
   interval = setInterval(function() {
        timer--;
-       time.textContent = timer + ' seconds remaining';
+       time.textContent = timer + ' seconds left';
          if (timer === 0) {
             clearInterval(interval);
             alert('Game Over');
