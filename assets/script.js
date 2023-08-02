@@ -125,6 +125,10 @@ let answerFeed = document.getElementById('answerTxt')
    
     currentQuestion++;
     
+    setTimeout(() => {
+      answerFeed.textContent = "";
+  }, 2000);
+
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
     clearInterval(interval);
