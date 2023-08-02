@@ -54,6 +54,7 @@ function showAnswers() {
 }
 }
 
+let answerFeed = document.getElementById('answerTxt')
 
  let questionSection = [
     {
@@ -103,21 +104,27 @@ function showAnswers() {
 },
   ];
 
+
   let checkAnswer = answerEl.addEventListener('click', function(event) {
 
-    chosenAnswer = event.target.textContent;
+    let chosenAnswer = event.target.textContent;
     let correctAnswer = questionSection[currentQuestion].answers.find(answer => answer.correct).text;
+
     console.log("Chosen Answer: " + chosenAnswer);
     console.log("Correct Answer: " + correctAnswer);
+
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log("your Score is:  " + score + "points");
+        answerFeed.textContent = "Correct!";
     }
     else {
         timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
     }
+   
     currentQuestion++;
+    
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
     clearInterval(interval);
@@ -129,5 +136,6 @@ function showAnswers() {
       else {
         showQuestions();
       }
+
   }
   );
