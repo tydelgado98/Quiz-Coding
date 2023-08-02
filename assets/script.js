@@ -131,7 +131,6 @@ let answerFeed = document.getElementById('answerTxt')
   }, 1300);
 
     if (currentQuestion === questionSection.length) {
-      alert('Game Over');
     clearInterval(interval);
     console.log('Game Over');
     console.log('Your Score is: ' + score + 'points');
