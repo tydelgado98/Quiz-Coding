@@ -76,7 +76,11 @@ main button:hover {
  @media screen and (max-width: 992px) {
    #links a{
        font-size: 20px;
-       gap: 30px;
+      display: inline-flex;
    }
-
+   #times{
+       font-size: 20px;
+       margin: 20px;
+       margin-top: 50px;
+   }
 }
