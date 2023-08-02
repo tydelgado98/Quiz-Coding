@@ -73,7 +73,9 @@ main button:hover {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media screen and (max-width: 992px) {
-    
+ @media screen and (max-width: 992px) {
+    links {
+        display: none;
+    }
 
 }
