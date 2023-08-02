@@ -116,12 +116,12 @@ let answerFeed = document.getElementById('answerTxt')
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log("your Score is:  " + score + "points");
-        answerFeed.textContent = "Correct!";
+        answerFeed.textContent = "+1 point!";
     }
     else {
         timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
-        answerFeed.textContent = "Wrong!";
+        answerFeed.textContent = "-5 seconds!";
     }
    
     currentQuestion++;
