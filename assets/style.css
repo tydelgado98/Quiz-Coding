@@ -68,4 +68,6 @@ main button:hover {
 #answerTxt{
     text-align: center;
     font-size: 35px;
+    color: darkkhaki;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
