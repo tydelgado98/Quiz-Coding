@@ -75,7 +75,7 @@ main button:hover {
 
  @media screen and (max-width: 992px) {
    #links{
-       font-size: 60px;
+       font-size: 40px;
    }
 
 }
