@@ -74,8 +74,8 @@ main button:hover {
 }
 
  @media screen and (max-width: 992px) {
-    links {
-        display: none;
-    }
+   #links{
+       display: none;
+   }
 
 }
