@@ -128,7 +128,7 @@ let answerFeed = document.getElementById('answerTxt')
 
     setTimeout(() => {
       answerFeed.textContent = "";
-  }, 2000);
+  }, 1300);
 
     if (currentQuestion === questionSection.length) {
       alert('Game Over');
