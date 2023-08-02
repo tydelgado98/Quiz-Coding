@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 13%;
 }
 main {
    
@@ -68,6 +69,6 @@ main button:hover {
 #answerTxt{
     text-align: center;
     font-size: 35px;
-    color: darkkhaki;
+    color: forestgreen;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
