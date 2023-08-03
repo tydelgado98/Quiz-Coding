@@ -140,6 +140,8 @@ let answerFeed = document.getElementById('answerTxt')
     section.style.display = 'none';
     highScore.style.display = 'block';
     let finalScore = document.getElementById('finalScore');
+    finalScore.textContent = score;
+    
 
       }
       else {
