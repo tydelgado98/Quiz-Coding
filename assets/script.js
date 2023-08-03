@@ -36,6 +36,7 @@ start.addEventListener('click', startGame)
 let questionEl = document.getElementById('questions');
 let answerEl = document.getElementById('answers');
 let finalScore = document.getElementById('finalScore');
+let finalTime = document.getElementById('finalTime');
 let currentQuestion = 0;
 
 function showQuestions() {
@@ -142,8 +143,7 @@ let answerFeed = document.getElementById('answerTxt')
     
     finalScore.textContent = score;
     finalTime.textContent = timer;
-     finalScore.textContent = score;
-      finalTime.textContent = timer; 
+    
 
       }
       else {
