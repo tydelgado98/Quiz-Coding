@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HighScore</title>
+    <title>Coding Quiz</title>
     <link rel="stylesheet" href="./assets/style.css">
     <script src="./assets/script.js"></script>
 </head>
@@ -17,13 +17,16 @@
             </li>
               </ul>
     </nav>
-    <main id="highscore-list">
+    <main>
         <h1>Enter HighScore</h1>
         <br />
-        <ol id="highScores"></ol>
-        <br />
-        
+        <form method="post">
+            <label for="name">Initials:</label>
+            <input type="text" id="initials" name="initials" placeholder="Enter your initials">
+            <input type="button" id="submit" value="submit">
+          </form>
+          
     </main>
-    <script src="./assets/highscore.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>

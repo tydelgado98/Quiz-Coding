@@ -159,19 +159,6 @@ let answerFeed = document.getElementById('answerTxt')
     }
   }
 
-  //   let doSubmit = submit.addEventListener('click', function(event) {
-  //   // event.preventDefault();
-
-  //   // let scoreText = initials.value.trim();
-
-  //   // if (scoreText === "") { 
-  //   //   return;
-  //   // }
-
-  //   // scores.push(scoreText);
-  //   // initials.value = "";
-
-  //   // renderScores();
-  // });
+  
 
   
