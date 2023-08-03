@@ -16,16 +16,17 @@
             </li>
               </ul>
     </nav>
-    <main>
-        <h1>Enter HighScore</h1>
-        <br />
-        <form method="post">
-            <label for="name">Initials:</label>
-            <input type="text" id="initials" name="initials" placeholder="Enter your initials">
-            <input type="button" id="submit" value="submit">
-          </form>
-          <div id="scoreList"></div>
-    </main>
+    <div class="new-score-box">
+        <h2>New Highscores:</h2>
+    
+        <ol id="new-score-list"></ol>
+      
+        <div> 
+            <a href="index.html"><button>Play Again</button></a>
+            <button id="erase-new">Clear Highscores</button>
+        </div>
+    </div>
     <script src="./assets/highscore.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>

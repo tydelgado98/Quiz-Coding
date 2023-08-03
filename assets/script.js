@@ -104,6 +104,7 @@ let answerFeed = document.getElementById('answerTxt')
 },
   ];
 
+ let section = document.getElementById('quizSection');
 
   let checkAnswer = answerEl.addEventListener('click', function(event) {
 
@@ -136,6 +137,14 @@ let answerFeed = document.getElementById('answerTxt')
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
+    section.style.display = 'none';
+    highScore.style.display = 'block';
+    let finalScore = document.getElementById('finalScore');
+    finalScore.textContent = score;
+    let finalTime = document.getElementById('finalTime');
+    finalTime.textContent = timer;
+      
+
       }
       else {
         showQuestions();
@@ -144,20 +153,6 @@ let answerFeed = document.getElementById('answerTxt')
   }
   );
 
-  /// High Score Section ///
-  let submit = document.getElementById('submit');
-  let initials = document.getElementById('initials');
-  let scoreList = document.getElementById('scoreList');
-  let scores = [];
-  let renderScores = function() {
-
-    for (let i = 0; i < scores.length; i++) {
-      const scorz = scores[i];
-      let li = document.createElement('li');
-      li.textContent = scorz;
-      scoreList.appendChild(li);
-    }
-  }
 
   
 
