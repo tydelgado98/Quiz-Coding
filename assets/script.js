@@ -1,9 +1,8 @@
-/// Variables ///
 let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let score = 0;
 let interval;
-/// Timer Section ///
+
 
 let time = document.getElementById('times');
 let timer = 60;
@@ -139,7 +138,7 @@ let answerFeed = document.getElementById('answerTxt')
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
-
+////// Score Section //////
     section.style.display = 'none';
     highScore.style.display = 'block';
     
