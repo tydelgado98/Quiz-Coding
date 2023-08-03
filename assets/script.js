@@ -38,6 +38,7 @@ let answerEl = document.getElementById('answers');
 let finalSco = document.getElementById('finalScore');
 let finalTi = document.getElementById('finalTime');
 let currentQuestion = 0;
+let section = document.getElementById('quizSection');
 
 function showQuestions() {
   questionEl.textContent = questionSection[currentQuestion].question;
@@ -105,7 +106,7 @@ let answerFeed = document.getElementById('answerTxt')
 },
   ];
 
- let section = document.getElementById('quizSection');
+ 
 
   let checkAnswer = answerEl.addEventListener('click', function(event) {
 
@@ -138,6 +139,8 @@ let answerFeed = document.getElementById('answerTxt')
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
+
+    section.style.display = 'none';
     highScore.style.display = 'block';
     
     finalSco.textContent = score;
