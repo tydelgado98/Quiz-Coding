@@ -141,7 +141,10 @@ let answerFeed = document.getElementById('answerTxt')
     highScore.style.display = 'block';
     let finalScore = document.getElementById('finalScore');
     finalScore.textContent = score;
-    
+    let finalTime = document.getElementById('finalTime');
+    finalTime.textContent = timer;
+     finalScore.textContent = score;
+      
 
       }
       else {
