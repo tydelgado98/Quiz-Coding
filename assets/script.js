@@ -1,3 +1,4 @@
+//// Variables ////
 let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let score = 0;
@@ -125,13 +126,13 @@ let answerFeed = document.getElementById('answerTxt')
         console.log("You Chose wrong, your score is: " + score + "points");
         answerFeed.textContent = "incorrect!";
     }
-   
+   //// Next Question ////
     currentQuestion++;
 
     setTimeout(() => {
       answerFeed.textContent = "";
   }, 1300);
-
+//// End Game ////
     if (currentQuestion === questionSection.length) {
     clearInterval(interval);
     console.log('Game Over');
