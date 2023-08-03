@@ -1,5 +1,4 @@
 /// Variables ///
-let highScore = document.getElementById('hiSco');
 let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let score = 0;
@@ -39,6 +38,7 @@ let finalSco = document.getElementById('finalScore');
 let finalTi = document.getElementById('finalTime');
 let currentQuestion = 0;
 let section = document.getElementById('quizSection');
+let highScore = document.getElementById('highScore');
 
 function showQuestions() {
   questionEl.textContent = questionSection[currentQuestion].question;
