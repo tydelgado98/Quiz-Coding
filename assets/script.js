@@ -143,3 +143,35 @@ let answerFeed = document.getElementById('answerTxt')
 
   }
   );
+
+  /// High Score Section ///
+  let submit = document.getElementById('submit');
+  let initials = document.getElementById('initials');
+  let scoreList = document.getElementById('scoreList');
+  let scores = [];
+  let renderScores = function() {
+
+    for (let i = 0; i < scores.length; i++) {
+      const scorz = scores[i];
+      let li = document.createElement('li');
+      li.textContent = scorz;
+      scoreList.appendChild(li);
+    }
+  }
+
+  //   let doSubmit = submit.addEventListener('click', function(event) {
+  //   // event.preventDefault();
+
+  //   // let scoreText = initials.value.trim();
+
+  //   // if (scoreText === "") { 
+  //   //   return;
+  //   // }
+
+  //   // scores.push(scoreText);
+  //   // initials.value = "";
+
+  //   // renderScores();
+  // });
+
+  
