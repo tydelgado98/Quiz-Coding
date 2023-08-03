@@ -104,6 +104,7 @@ let answerFeed = document.getElementById('answerTxt')
 },
   ];
 
+ let answer = document.getElementById('answers');
 
   let checkAnswer = answerEl.addEventListener('click', function(event) {
 
