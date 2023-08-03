@@ -138,6 +138,8 @@ let answerFeed = document.getElementById('answerTxt')
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
     section.style.display = 'none';
+    highScore.style.display = 'block';
+    let finalScore = document.getElementById('finalScore');
 
       }
       else {
