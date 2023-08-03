@@ -104,7 +104,7 @@ let answerFeed = document.getElementById('answerTxt')
 },
   ];
 
- let answer = document.getElementById('answers');
+ let section = document.getElementById('quizSection');
 
   let checkAnswer = answerEl.addEventListener('click', function(event) {
 
@@ -137,7 +137,7 @@ let answerFeed = document.getElementById('answerTxt')
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
-    intro.style.display = 'hidden';
+    section.style.display = 'none';
 
       }
       else {
