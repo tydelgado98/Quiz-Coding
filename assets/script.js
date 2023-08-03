@@ -136,6 +136,8 @@ let answerFeed = document.getElementById('answerTxt')
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
+    intro.style.display = 'hidden';
+
       }
       else {
         showQuestions();
@@ -144,13 +146,7 @@ let answerFeed = document.getElementById('answerTxt')
   }
   );
 
- function endQuiz() {
-   clearInterval(interval);
-   console.log('Game Over');
-   console.log('Your Score is: ' + score + 'points');
-   console.log('Your Time is: ' + timer + 'seconds');
-   console.log("Start over if you want to play again");
- }
+
   
 
   
