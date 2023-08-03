@@ -35,7 +35,7 @@ start.addEventListener('click', startGame)
 
 let questionEl = document.getElementById('questions');
 let answerEl = document.getElementById('answers');
-
+let finalScore = document.getElementById('finalScore');
 let currentQuestion = 0;
 
 function showQuestions() {
@@ -139,12 +139,11 @@ let answerFeed = document.getElementById('answerTxt')
     console.log("Start over if you want to play again");
     section.style.display = 'none';
     highScore.style.display = 'block';
-    let finalScore = document.getElementById('finalScore');
+    
     finalScore.textContent = score;
-    let finalTime = document.getElementById('finalTime');
     finalTime.textContent = timer;
      finalScore.textContent = score;
-      
+      finalTime.textContent = timer; 
 
       }
       else {
