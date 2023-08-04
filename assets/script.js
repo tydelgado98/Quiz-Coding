@@ -132,12 +132,12 @@ let answerFeed = document.getElementById('answerTxt')
     ]
 },
 {
-    question: 'What is the capital of Massachuesetts?',
+    question: 'What is the capital of Utah?',
     answers: [
-        {text: 'Boston', correct: false},
-        {text: 'Cape Cod', correct: true},
-        {text: 'Springfield', correct: false},
-        {text: 'Holyoke', correct: false}
+        {text: 'Salt Lake City', correct: true},
+        {text: 'Provo', correct: false},
+        {text: 'Ogden', correct: false},
+        {text: 'St. George', correct: false}
     ]
 },
   ];
