@@ -118,7 +118,10 @@ let answerFeed = document.getElementById('answerTxt')
     answers: [
         {text: 'Denver', correct: true},
         {text: 'Colorado Springs', correct: false},
-        
+        {text: 'Boulder', correct: false},
+        {text: 'Fort Collins', correct: false}
+    ]
+},
 {
     question: 'What is the capital of Massachuesetts?',
     answers: [
