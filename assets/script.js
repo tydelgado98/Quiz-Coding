@@ -105,6 +105,15 @@ let answerFeed = document.getElementById('answerTxt')
     ]
 },
 {
+    question: 'What is the capital of Illinois?',
+    answers: [
+        {text: 'Chicago', correct: false},
+        {text: 'Springfield', correct: true},
+        {text: 'Peoria', correct: false},
+        {text: 'Rockford', correct: false}
+    ]
+},
+{
     question: 'What is the capital of Massachuesetts?',
     answers: [
         {text: 'Boston', correct: false},
