@@ -104,6 +104,33 @@ let answerFeed = document.getElementById('answerTxt')
         {text: 'Holyoke', correct: false}
     ]
 },
+{
+    question: 'What is the capital of Massachuesetts?',
+    answers: [
+        {text: 'Boston', correct: false},
+        {text: 'Cape Cod', correct: true},
+        {text: 'Springfield', correct: false},
+        {text: 'Holyoke', correct: false}
+    ]
+},
+{
+    question: 'What is the capital of Massachuesetts?',
+    answers: [
+        {text: 'Boston', correct: false},
+        {text: 'Cape Cod', correct: true},
+        {text: 'Springfield', correct: false},
+        {text: 'Holyoke', correct: false}
+    ]
+},
+{
+    question: 'What is the capital of Massachuesetts?',
+    answers: [
+        {text: 'Boston', correct: false},
+        {text: 'Cape Cod', correct: true},
+        {text: 'Springfield', correct: false},
+        {text: 'Holyoke', correct: false}
+    ]
+},
   ];
 
  
