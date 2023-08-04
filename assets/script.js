@@ -114,14 +114,11 @@ let answerFeed = document.getElementById('answerTxt')
     ]
 },
 {
-    question: 'What is the capital of Massachuesetts?',
+    question: 'What is the capital of Colorado?',
     answers: [
-        {text: 'Boston', correct: false},
-        {text: 'Cape Cod', correct: true},
-        {text: 'Springfield', correct: false},
-        {text: 'Holyoke', correct: false}
-    ]
-},
+        {text: 'Denver', correct: true},
+        {text: 'Colorado Springs', correct: false},
+        
 {
     question: 'What is the capital of Massachuesetts?',
     answers: [
