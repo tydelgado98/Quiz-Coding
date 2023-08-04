@@ -132,21 +132,28 @@ let answerFeed = document.getElementById('answerTxt')
     setTimeout(() => {
       answerFeed.textContent = "";
   }, 1300);
+
 //// End Game ////
+
     if (currentQuestion === questionSection.length) {
     clearInterval(interval);
     console.log('Game Over');
     console.log('Your Score is: ' + score + 'points');
     console.log('Your Time is: ' + timer + 'seconds');
     console.log("Start over if you want to play again");
+
 ////// Score Section //////
     section.style.display = 'none';
     highScore.style.display = 'block';
     
     finalSco.textContent = score;
     finalTi.textContent = timer;
-    
+    //// High Score Page ////
+ setTimeout(() => {
+      window.location.href = 'high-score.html'
+  }, 1300);
 
+  
       }
       else {
         showQuestions();
