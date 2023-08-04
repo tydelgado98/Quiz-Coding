@@ -123,12 +123,12 @@ let answerFeed = document.getElementById('answerTxt')
     ]
 },
 {
-    question: 'What is the capital of Massachuesetts?',
+    question: 'What is the capital of Washington?',
     answers: [
-        {text: 'Boston', correct: false},
-        {text: 'Cape Cod', correct: true},
-        {text: 'Springfield', correct: false},
-        {text: 'Holyoke', correct: false}
+        {text: 'Seattle', correct: false},
+        {text: 'Tacoma', correct: false},
+        {text: 'Olympia', correct: true},
+        {text: 'Spokane', correct: false}
     ]
 },
 {
