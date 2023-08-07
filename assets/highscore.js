@@ -16,12 +16,12 @@ function showScores() {
     }
 }
 
-// Erase scores
-// function eraseHighscores() {
-//     window.localStorage.removeItem('highScores');
-//     window.location.reload();
-// }
 
-// document.getElementById('erase-new').onclick = eraseHighscores;
+function eraseHighscores() {
+    window.localStorage.removeItem('highScores');
+    window.location.reload();
+}
+
+document.getElementById('erase-new').onclick = eraseHighscores;
 
 showScores();
