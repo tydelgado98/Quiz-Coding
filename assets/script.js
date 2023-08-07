@@ -215,7 +215,7 @@ let answerFeed = document.getElementById('answerTxt')
     finalSco.textContent = score;
     finalTi.textContent = timer;
 
-    localStorage.setItem("highscores", score);
+    let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 
     //// High Score Page ////

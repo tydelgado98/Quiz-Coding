@@ -1,27 +1,27 @@
-function showScores() {
-    let highscores = JSON.parse(window.localStorage.getItem("highscores")) || [];
+// function showScores() {
+//     let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
     
-    // Separate scores
-    highscores.sort(function(a, b) {
-        return b.score - a.score;
-    });
+//     // Separate scores
+//     highScores.sort(function(a, b) {
+//         return b.score - a.score;
+//     });
 
-    let olList = document.getElementById("new-score-list");
-    olList.innerHTML = ''; // Clear previous scores before showing updated ones
+//     let olList = document.getElementById('new-score-list');
+//     olList.innerHTML = ''; // Clear previous scores before showing updated ones
 
-    for (let i = 0; i < highscores.length; i += 1) {
-        let liEl = document.createElement('li');
-        liEl.textContent = highscores[i].initials + '-' + highscores[i].score;
-        olList.appendChild(liEl);
-    }
-}
+//     for (let i = 0; i < highScores.length; i += 1) {
+//         let liEl = document.createElement('li');
+//         liEl.textContent = `Score: ${highScores[i].score}, Time: ${highScores[i].time} seconds`;
+//         olList.appendChild(liEl);
+//     }
+// }
 
-// Erase scores
-function eraseHighscores() {
-    window.localStorage.removeItem("highscores");
-    window.location.reload();
-}
 
-document.getElementById("erase-new").onclick = eraseHighscores;
+// function eraseHighscores() {
+//     window.localStorage.removeItem('highScores');
+//     window.location.reload();
+// }
 
-showScores();
+// document.getElementById('erase-new').onclick = eraseHighscores;
+
+// showScores();
