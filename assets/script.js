@@ -145,7 +145,10 @@ let answerFeed = document.getElementById('answerTxt')
     answers: [
         {text: 'Phoenix', correct: true},
         {text: 'Tucson', correct: false},
-        
+        {text: 'Flagstaff', correct: false},
+        {text: 'Mesa', correct: false}
+    ]
+},
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
