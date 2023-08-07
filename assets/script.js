@@ -220,7 +220,7 @@ let answerFeed = document.getElementById('answerTxt')
     finalTi.textContent = timer;
 
     let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-    // highScores.push({ score, time: timer });
+    highScores.push({ score, time: timer });
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
     //// High Score Page ////
