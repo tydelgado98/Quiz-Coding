@@ -142,7 +142,9 @@ let answerFeed = document.getElementById('answerTxt')
 },
   ];
 
- 
+ // Load high scores from Local Storage, or initialize an empty array
+let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+
 
   let checkAnswer = answerEl.addEventListener('click', function(event) {
 
