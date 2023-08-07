@@ -19,8 +19,10 @@ function countdown() {
             }
     }, 800);
         }
+        if (start) {
+            start.addEventListener('click', startGame);
+        }
         
-start.addEventListener('click', startGame) 
 
   function startGame() {
     countdown();
@@ -217,7 +219,7 @@ let answerFeed = document.getElementById('answerTxt')
 
     let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
     highScores.push({ score, time: timer });
-    
+    localStorage.setItem('highScores', JSON.stringify(highScores));
 
     //// High Score Page ////
  setTimeout(() => {
