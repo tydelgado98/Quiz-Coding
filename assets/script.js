@@ -140,6 +140,12 @@ let answerFeed = document.getElementById('answerTxt')
         {text: 'St. George', correct: false}
     ]
 },
+{
+    question: 'What is the capital of Arizona?',
+    answers: [
+        {text: 'Phoenix', correct: true},
+        {text: 'Tucson', correct: false},
+        
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
