@@ -19,6 +19,8 @@ function countdown() {
             }
     }, 800);
         }
+
+
         if (start) {
             start.addEventListener('click', startGame);
         }
@@ -175,8 +177,8 @@ let answerFeed = document.getElementById('answerTxt')
 
  
 
-
-  let checkAnswer = answerEl.addEventListener('click', function(event) {
+ if (answerEl) {
+   answerEl.addEventListener('click', function(event) {
 
     let chosenAnswer = event.target.textContent;
     let correctAnswer = questionSection[currentQuestion].answers.find(answer => answer.correct).text;
@@ -218,7 +220,7 @@ let answerFeed = document.getElementById('answerTxt')
     finalTi.textContent = timer;
 
     let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-    highScores.push({ score, time: timer });
+    // highScores.push({ score, time: timer });
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
     //// High Score Page ////
@@ -235,7 +237,7 @@ let answerFeed = document.getElementById('answerTxt')
   }
   );
 
-
+ }
   
 
   
