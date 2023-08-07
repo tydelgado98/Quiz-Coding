@@ -149,6 +149,12 @@ let answerFeed = document.getElementById('answerTxt')
         {text: 'Mesa', correct: false}
     ]
 },
+{
+    question: 'What is the capital of Nevada?',
+    answers: [
+        {text: 'Las Vegas', correct: false},
+        {text: 'Reno', correct: false},
+        
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
