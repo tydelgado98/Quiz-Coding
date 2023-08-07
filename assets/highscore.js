@@ -11,7 +11,7 @@ function showScores() {
 
     for (let i = 0; i < highScores.length; i += 1) {
         let liEl = document.createElement('li');
-        liEl.textContent = highScores[i].initials + '-' + highScores[i].score;
+        liEl.textContent = highScores[i] + "your score" + '-' + highScores[i].score;
         olList.appendChild(liEl);
     }
 }
