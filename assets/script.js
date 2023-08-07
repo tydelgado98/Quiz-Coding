@@ -188,11 +188,9 @@ let answerFeed = document.getElementById('answerTxt')
     finalSco.textContent = score;
     finalTi.textContent = timer;
 
-    let highscores = JSON.parse(window.localStorage.getItem("highscores")) || [];
-    let initials = document.getElementById("initials");
-    let submit = document.getElementById("submit");
+    localStorage.setItem("highscores", score);
 
-    
+
     //// High Score Page ////
  setTimeout(() => {
       window.location.href = 'high-score.html'
