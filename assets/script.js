@@ -6,7 +6,7 @@ let interval;
 
 
 let time = document.getElementById('times');
-let timer = 60;
+let timer = 120;
 
 
 function countdown() {
@@ -161,7 +161,7 @@ let answerFeed = document.getElementById('answerTxt')
         answerFeed.textContent = "correct!";
     }
     else {
-        timer -= 3;
+        timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
         answerFeed.textContent = "incorrect!";
     }
