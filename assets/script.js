@@ -216,7 +216,7 @@ let answerFeed = document.getElementById('answerTxt')
     finalTi.textContent = timer;
 
     let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-
+ highScores.push({ score, time: timer });
 
     //// High Score Page ////
  setTimeout(() => {
