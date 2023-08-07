@@ -158,7 +158,15 @@ let answerFeed = document.getElementById('answerTxt')
         {text: 'Henderson', correct: false}
     ]
 },
-
+{
+    question: 'What is the capital of Oregon?',
+    answers: [
+        {text: 'Portland', correct: false},
+        {text: 'Eugene', correct: false},
+        {text: 'Salem', correct: true},
+        {text: 'Bend', correct: false}
+    ]
+},
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
