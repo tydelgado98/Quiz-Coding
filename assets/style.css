@@ -80,6 +80,12 @@ main button:hover {
     color: black;
 }
 
+.new-score-list{
+    margin: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
  @media screen and (max-width: 992px) {
    #links a{
        font-size: 20px;
