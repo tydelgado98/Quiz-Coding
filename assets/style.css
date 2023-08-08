@@ -73,6 +73,11 @@ main button:hover {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.new-score-box{
+    margin: 5%;
+  
+}
+
  @media screen and (max-width: 992px) {
    #links a{
        font-size: 20px;
