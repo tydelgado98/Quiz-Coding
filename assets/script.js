@@ -112,9 +112,9 @@ let answerFeed = document.getElementById('answerTxt')
         question: 'How do you write a comment in JavaScript?',
         answers: [
             { text: 'Using the comment keyword.', correct: false },
-            { text: 'a string', correct: false },
-            { text: 'a number', correct: false },
-            { text: 'a container for a value', correct: true }
+            { text: 'By using double quotes around text.', correct: false },
+            { text: 'With the # symbol', correct: false },
+            { text: 'With the // symbol', correct: true }
         ]
     },
     {
