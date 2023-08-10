@@ -129,10 +129,10 @@ let answerFeed = document.getElementById('answerTxt')
     {
         question: 'What is the purpose of a for loop?',
         answers: [
-            { text: 'To change the value of a variable.', correct: false },
-            { text: 'To make a function recursive.', correct: false },
-            { text: 'To create an array.', correct: false },
-            { text: 'To repeatedly execute a block of code.', correct: true }
+            { text: 'To change the value of a variable', correct: false },
+            { text: 'To make a function recursive', correct: false },
+            { text: 'To create an array', correct: false },
+            { text: 'To repeatedly execute a block of code', correct: true }
         ]
     },
     {
