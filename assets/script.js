@@ -72,6 +72,15 @@ let answerFeed = document.getElementById('answerTxt')
             { text: 'a boolean', correct: false }
         ]
     },
+    {
+        question: 'what is a function?',
+        answers: [
+            { text: 'a list of items', correct: false },
+            { text: 'a number', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a block of code', correct: true }
+        ]
+    },
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
