@@ -95,6 +95,9 @@ let answerFeed = document.getElementById('answerTxt')
         answers: [
             {text: 'it is a collection of data', correct: false},
             {text: 'it is null', correct: false},
+            {text: 'it goes through each object', correct: true},
+            {text: 'it is a container for storing data values', correct: false}
+        ]
   },
   {
     question: 'What is the capital of Massachuesetts?',
