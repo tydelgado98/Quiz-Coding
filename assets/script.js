@@ -138,10 +138,10 @@ let answerFeed = document.getElementById('answerTxt')
     {
         question: 'How do you add an element to the end of an array?',
         answers: [
-            { text: 'Using the add() method.', correct: false },
-            { text: 'By assigning a value to a specific index.', correct: false },
-            { text: 'With the append() method.', correct: false },
-            { text: 'Using the push() method.', correct: true }
+            { text: 'Using the add() method', correct: false },
+            { text: 'By assigning a value to a specific index', correct: false },
+            { text: 'With the append() method', correct: false },
+            { text: 'Using the push() method', correct: true }
         ]
     },
   ];
