@@ -120,10 +120,10 @@ let answerFeed = document.getElementById('answerTxt')
     {
         question: 'What is an event listener?',
         answers: [
-            { text: 'function waits for a certain event to occur, then does an action.', correct: true },
-            { text: 'A function that generates random numbers.', correct: false },
-            { text: 'A way to create animations.', correct: false },
-            { text: 'A function that modifies CSS styles.', correct: false }
+            { text: 'function waits for a certain event to occur, then does an action', correct: true },
+            { text: 'A function that generates random numbers', correct: false },
+            { text: 'A way to create animations', correct: false },
+            { text: 'A function that modifies CSS styles', correct: false }
         ]
     },
     {
