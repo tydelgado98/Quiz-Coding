@@ -73,13 +73,11 @@ let answerFeed = document.getElementById('answerTxt')
         ] 
     },
     {
-        question: 'What is the capital of Texas?',
+        question: 'what is a function?',
         answers: [
-            {text: 'Houston', correct: false},
-            {text: 'Dallas', correct: false},
-            {text: 'Austin', correct: true},
-            {text: 'San Antonio', correct: false}
-        ]
+            {text: 'it is a collection of data', correct: false},
+            {text: 'it is null', correct: false},
+            
     },
     {
         question: 'What is the capital of New York?',
