@@ -81,6 +81,15 @@ let answerFeed = document.getElementById('answerTxt')
             { text: 'a block of code', correct: true }
         ]
     },
+    {
+        question: 'what is a variable?',
+        answers: [
+            { text: 'a boolean', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a number', correct: false },
+            { text: 'a container for a value', correct: true }
+        ]
+    },
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
