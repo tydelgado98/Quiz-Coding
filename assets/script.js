@@ -102,17 +102,17 @@ let answerFeed = document.getElementById('answerTxt')
     {
         question: 'How do you declare a variable in JavaScript?',
         answers: [
-            { text: 'Using the print keyword.', correct: false },
-            { text: 'By typing the variables value.', correct: false },
-            { text: 'With the define keyword.', correct: false },
-            { text: 'By using keywords like var, let, or const.', correct: true }
+            { text: 'Using the print keyword', correct: false },
+            { text: 'By typing the variables value', correct: false },
+            { text: 'With the define keyword', correct: false },
+            { text: 'By using keywords like var, let, or const', correct: true }
         ]
     },
     {
         question: 'How do you write a comment in JavaScript?',
         answers: [
-            { text: 'Using the comment keyword.', correct: false },
-            { text: 'By using double quotes around text.', correct: false },
+            { text: 'Using the comment keyword', correct: false },
+            { text: 'By using double quotes around text', correct: false },
             { text: 'With the # symbol', correct: false },
             { text: 'With the // symbol', correct: true }
         ]
