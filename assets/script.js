@@ -64,12 +64,12 @@ let answerFeed = document.getElementById('answerTxt')
 
  let questionSection = [
     {
-        question: 'What is the capital of California?',
+        question: 'what is an array?',
         answers: [
-            {text: 'Sacramento', correct: true},
-            {text: 'Los Angeles', correct: false},
-            {text: 'San Francisco', correct: false},
-            {text: 'San Diego', correct: false}
+            {text: 'it is a collection of data', correct: true},
+            {text: 'it is null', correct: false},
+            {text: 'it goes through each object', correct: false},
+            {text: 'hot fries', correct: false}
         ] 
     },
     {
