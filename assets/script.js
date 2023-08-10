@@ -66,111 +66,12 @@ let answerFeed = document.getElementById('answerTxt')
     {
         question: 'what is an array?',
         answers: [
-            {text: 'it is a collection of data', correct: true},
-            {text: 'it is null', correct: false},
-            {text: 'it goes through each object', correct: false},
-            {text: 'hot fries', correct: false}
-        ] 
-    },
-    {
-        question: 'what is a function?',
-        answers: [
-            {text: 'it is a collection of data', correct: false},
-            {text: 'it is null', correct: false},
-            {text: 'it goes through each object', correct: false},
-            {text: 'it is a block of code designed to perform a particular task', correct: true}
+            { text: 'a list of items', correct: true },
+            { text: 'a number', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a boolean', correct: false }
         ]
     },
-    {
-        question: 'what is a variable?',
-        answers: [
-            {text: 'it is a collection of data', correct: false},
-            {text: 'it is null', correct: false},
-            {text: 'it goes through each object', correct: false},
-            {text: 'it is a container for storing data values', correct: true}
-        ]
-    },
-    {
-      question: 'what is a loop?',
-        answers: [
-            {text: 'it is a collection of data', correct: false},
-            {text: 'it is null', correct: false},
-            {text: 'it goes through each object', correct: true},
-            {text: 'it is a container for storing data values', correct: false}
-        ]
-  },
-  {
-    question: 'What is the capital of Massachuesetts?',
-    answers: [
-        {text: 'Boston', correct: false},
-        {text: 'Cape Cod', correct: true},
-        {text: 'Springfield', correct: false},
-        {text: 'Holyoke', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Illinois?',
-    answers: [
-        {text: 'Chicago', correct: false},
-        {text: 'Springfield', correct: true},
-        {text: 'Peoria', correct: false},
-        {text: 'Rockford', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Colorado?',
-    answers: [
-        {text: 'Denver', correct: true},
-        {text: 'Colorado Springs', correct: false},
-        {text: 'Boulder', correct: false},
-        {text: 'Fort Collins', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Washington?',
-    answers: [
-        {text: 'Seattle', correct: false},
-        {text: 'Tacoma', correct: false},
-        {text: 'Olympia', correct: true},
-        {text: 'Spokane', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Utah?',
-    answers: [
-        {text: 'Salt Lake City', correct: true},
-        {text: 'Provo', correct: false},
-        {text: 'Ogden', correct: false},
-        {text: 'St. George', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Arizona?',
-    answers: [
-        {text: 'Phoenix', correct: true},
-        {text: 'Tucson', correct: false},
-        {text: 'Flagstaff', correct: false},
-        {text: 'Mesa', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Nevada?',
-    answers: [
-        {text: 'Las Vegas', correct: false},
-        {text: 'Reno', correct: false},
-        {text: 'Carson City', correct: true},
-        {text: 'Henderson', correct: false}
-    ]
-},
-{
-    question: 'What is the capital of Oregon?',
-    answers: [
-        {text: 'Portland', correct: false},
-        {text: 'Eugene', correct: false},
-        {text: 'Salem', correct: true},
-        {text: 'Bend', correct: false}
-    ]
-},
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
