@@ -90,6 +90,60 @@ let answerFeed = document.getElementById('answerTxt')
             { text: 'a container for a value', correct: true }
         ]
     },
+    {
+        question: 'What is the purpose of JavaScript?',
+        answers: [
+            { text: 'To make websites interactive', correct: true },
+            { text: 'To style web pages', correct: false },
+            { text: 'To create databases', correct: false },
+            { text: 'To generate QR codes', correct: false }
+        ]
+    },
+    {
+        question: 'what is a function?',
+        answers: [
+            { text: 'a list of items', correct: false },
+            { text: 'a number', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a block of code', correct: true }
+        ]
+    },
+    {
+        question: 'what is a variable?',
+        answers: [
+            { text: 'a boolean', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a number', correct: false },
+            { text: 'a container for a value', correct: true }
+        ]
+    },
+    {
+        question: 'what is an array?',
+        answers: [
+            { text: 'a list of items', correct: true },
+            { text: 'a number', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a boolean', correct: false }
+        ]
+    },
+    {
+        question: 'what is a function?',
+        answers: [
+            { text: 'a list of items', correct: false },
+            { text: 'a number', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a block of code', correct: true }
+        ]
+    },
+    {
+        question: 'what is a variable?',
+        answers: [
+            { text: 'a boolean', correct: false },
+            { text: 'a string', correct: false },
+            { text: 'a number', correct: false },
+            { text: 'a container for a value', correct: true }
+        ]
+    },
   ];
 
  // Load high scores from Local Storage, or initialize an empty array
