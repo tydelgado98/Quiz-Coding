@@ -118,16 +118,16 @@ let answerFeed = document.getElementById('answerTxt')
         ]
     },
     {
-        question: 'what is an array?',
+        question: 'What is an event listener?',
         answers: [
-            { text: 'a list of items', correct: true },
-            { text: 'a number', correct: false },
-            { text: 'a string', correct: false },
-            { text: 'a boolean', correct: false }
+            { text: 'function waits for a certain event to occur, then does an action.', correct: true },
+            { text: 'A function that generates random numbers.', correct: false },
+            { text: 'A way to create animations.', correct: false },
+            { text: 'A function that modifies CSS styles.', correct: false }
         ]
     },
     {
-        question: 'what is a function?',
+        question: 'What is the purpose of a for loop?',
         answers: [
             { text: 'a list of items', correct: false },
             { text: 'a number', correct: false },
