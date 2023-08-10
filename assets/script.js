@@ -77,7 +77,9 @@ let answerFeed = document.getElementById('answerTxt')
         answers: [
             {text: 'it is a collection of data', correct: false},
             {text: 'it is null', correct: false},
-            
+            {text: 'it goes through each object', correct: false},
+            {text: 'it is a block of code designed to perform a particular task', correct: true}
+        ]
     },
     {
         question: 'What is the capital of New York?',
