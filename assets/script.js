@@ -91,13 +91,10 @@ let answerFeed = document.getElementById('answerTxt')
         ]
     },
     {
-      question: 'What is the capital of Florida?',
-      answers: [
-          {text: 'Tampa', correct: false},
-          {text: 'Tallahasee', correct: true},
-          {text: 'Orlando', correct: false},
-          {text: 'Miami', correct: false}
-      ]
+      question: 'what is a loop?',
+        answers: [
+            {text: 'it is a collection of data', correct: false},
+            {text: 'it is null', correct: false},
   },
   {
     question: 'What is the capital of Massachuesetts?',
