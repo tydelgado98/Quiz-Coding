@@ -100,18 +100,18 @@ let answerFeed = document.getElementById('answerTxt')
         ]
     },
     {
-        question: 'what is a function?',
+        question: 'How do you declare a variable in JavaScript?',
         answers: [
-            { text: 'a list of items', correct: false },
-            { text: 'a number', correct: false },
-            { text: 'a string', correct: false },
-            { text: 'a block of code', correct: true }
+            { text: 'Using the print keyword.', correct: false },
+            { text: 'By typing the variables value.', correct: false },
+            { text: 'With the define keyword.', correct: false },
+            { text: 'By using keywords like var, let, or const.', correct: true }
         ]
     },
     {
-        question: 'what is a variable?',
+        question: 'How do you write a comment in JavaScript?',
         answers: [
-            { text: 'a boolean', correct: false },
+            { text: 'Using the comment keyword.', correct: false },
             { text: 'a string', correct: false },
             { text: 'a number', correct: false },
             { text: 'a container for a value', correct: true }
