@@ -136,12 +136,12 @@ let answerFeed = document.getElementById('answerTxt')
         ]
     },
     {
-        question: 'what is a variable?',
+        question: 'How do you add an element to the end of an array?',
         answers: [
-            { text: 'a boolean', correct: false },
-            { text: 'a string', correct: false },
-            { text: 'a number', correct: false },
-            { text: 'a container for a value', correct: true }
+            { text: 'Using the add() method.', correct: false },
+            { text: 'By assigning a value to a specific index.', correct: false },
+            { text: 'With the append() method.', correct: false },
+            { text: 'Using the push() method.', correct: true }
         ]
     },
   ];
