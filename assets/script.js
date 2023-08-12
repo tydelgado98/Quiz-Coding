@@ -19,8 +19,7 @@ const countdown = () => {
             }
     }, 800);
         }
-
-
+        
         if (start) {
             start.addEventListener('click', startGame);
         }
