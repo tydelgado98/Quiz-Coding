@@ -26,7 +26,7 @@ function countdown() {
         }
         
 
-  function startGame() {
+  const startGame = () => {
     countdown();
     intro[0].style.display = 'none';
     console.log('started');
