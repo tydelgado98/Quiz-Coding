@@ -44,7 +44,7 @@ let currentQuestion = 0;
 let section = document.getElementById('quizSection');
 let highScore = document.getElementById('highScore');
 
-const showQuestions = () => (questionEl.textContent = questionSection[currentQuestion].question,  showAnswers());
+const showQuestions = () => (questionEl.textContent = questionSection[currentQuestion].question, showAnswers());
  
  
 
