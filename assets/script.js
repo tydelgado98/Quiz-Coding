@@ -9,7 +9,7 @@ let time = document.getElementById('times');
 let timer = 180;
 
 
-function countdown() {
+const countdown = () => {
   const interval = setInterval(() => {
        timer--;
        time.textContent = timer + ' seconds remaining';
