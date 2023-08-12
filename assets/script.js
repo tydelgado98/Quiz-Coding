@@ -197,11 +197,8 @@ let answerFeed = document.getElementById('answerTxt')
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
     //// High Score Page ////
- setTimeout(() => {
-      window.location.href = 'high-score.html'
-  }, 1300);
-
-  
+ setTimeout(() => window.location.href = 'high-score.html', 1300);
+      
       }
       else {
         showQuestions();
