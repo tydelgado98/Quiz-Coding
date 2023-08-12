@@ -6,11 +6,11 @@ let interval;
 
 
 let time = document.getElementById('times');
-let timer = 120;
+let timer = 180;
 
 
 function countdown() {
-  interval = setInterval(function() {
+  const interval = setInterval(() => {
        timer--;
        time.textContent = timer + ' seconds remaining';
          if (timer === 0) {
