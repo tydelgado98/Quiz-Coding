@@ -49,7 +49,7 @@ const showQuestions = () => (questionEl.textContent = questionSection[currentQue
  
 
 
-function showAnswers() {
+const showAnswers = () => {
  let currentAnswer = questionSection[currentQuestion].answers;
  answerEl.innerHTML = '';
 
