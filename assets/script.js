@@ -48,8 +48,6 @@ let highScore = document.getElementById('highScore');
 const showQuestions = () => (questionEl.textContent = questionSection[currentQuestion].question, showAnswers());
  
  
-
-
 const showAnswers = () => {
  let currentAnswer = questionSection[currentQuestion].answers;
  answerEl.innerHTML = '';
