@@ -145,7 +145,7 @@ let answerFeed = document.getElementById('answerTxt')
     },
   ];
 
- // Load high scores from Local Storage, or initialize an empty array
+ 
 
  
 
