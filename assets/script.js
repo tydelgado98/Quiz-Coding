@@ -33,7 +33,7 @@ const countdown = () => {
     }
 
 
-/// Questions and Answers ///
+/// Variables for Questions and Answers ///
 
 let questionEl = document.getElementById('questions');
 let answerEl = document.getElementById('answers');
@@ -42,6 +42,8 @@ let finalTi = document.getElementById('finalTime');
 let currentQuestion = 0;
 let section = document.getElementById('quizSection');
 let highScore = document.getElementById('highScore');
+
+/// Showing Questions and Answers ///
 
 const showQuestions = () => (questionEl.textContent = questionSection[currentQuestion].question, showAnswers());
  
