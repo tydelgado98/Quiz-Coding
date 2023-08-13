@@ -156,13 +156,14 @@ let answerFeed = document.getElementById('answerTxt')
 
     console.log("Chosen Answer: " + chosenAnswer);
     console.log("Correct Answer: " + correctAnswer);
-///// Answer Feedback /////
+///// Correct Feedback /////
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log("your Score is:  " + score + "points");
         answerFeed.textContent = "Correct!";
         answerFeed.style.color = 'green';
     }
+///// Incorrect Feedback /////
     else {
         timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
@@ -170,7 +171,10 @@ let answerFeed = document.getElementById('answerTxt')
         answerFeed.style.color = 'red';
     }
    //// Next Question ////
+
     currentQuestion++;
+    
+//// Answer Feedback Timer ////
 
     setTimeout(() => {
       answerFeed.textContent = "";
