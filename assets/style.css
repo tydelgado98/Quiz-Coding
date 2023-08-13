@@ -63,7 +63,7 @@ main button:hover {
     color: white;
     padding: 10px;
     opacity: 70%;
-    transform: scale(1.4);
+    transform: scale(1.6);
     cursor: pointer;
 }
 #answerTxt{
