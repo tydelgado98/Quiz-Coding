@@ -151,13 +151,13 @@ let answerFeed = document.getElementById('answerTxt')
 
  if (answerEl) {
    answerEl.addEventListener('click', function(event) {
-
+    
     let chosenAnswer = event.target.textContent;
     let correctAnswer = questionSection[currentQuestion].answers.find(answer => answer.correct).text;
 
     console.log("Chosen Answer: " + chosenAnswer);
     console.log("Correct Answer: " + correctAnswer);
-
+///// Answer Feedback /////
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log("your Score is:  " + score + "points");
