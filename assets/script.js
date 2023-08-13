@@ -161,12 +161,12 @@ let answerFeed = document.getElementById('answerTxt')
     if (chosenAnswer === correctAnswer) {
         score++;
         console.log("your Score is:  " + score + "points");
-        answerFeed.textContent = "correct!";
+        answerFeed.textContent = "Correct!";
     }
     else {
         timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
-        answerFeed.textContent = "incorrect!";
+        answerFeed.textContent = "Incorrect!";
         answerFeed.style.color = 'red';
     }
    //// Next Question ////
