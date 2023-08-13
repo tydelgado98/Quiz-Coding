@@ -162,6 +162,7 @@ let answerFeed = document.getElementById('answerTxt')
         score++;
         console.log("your Score is:  " + score + "points");
         answerFeed.textContent = "Correct!";
+        answerFeed.style.color = 'green';
     }
     else {
         timer -= 5;
@@ -174,7 +175,7 @@ let answerFeed = document.getElementById('answerTxt')
 
     setTimeout(() => {
       answerFeed.textContent = "";
-  }, 1300);
+  }, 1400);
 
 //// End Game ////
 
