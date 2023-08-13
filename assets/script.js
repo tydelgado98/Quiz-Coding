@@ -167,6 +167,7 @@ let answerFeed = document.getElementById('answerTxt')
         timer -= 5;
         console.log("You Chose wrong, your score is: " + score + "points");
         answerFeed.textContent = "incorrect!";
+        this.style.color = 'red';
     }
    //// Next Question ////
     currentQuestion++;
