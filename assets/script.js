@@ -1,4 +1,4 @@
-//// Variables ////
+//// Variables for Beginning ////
 let start = document.getElementById('start');
 let intro = document.getElementsByClassName('intros');
 let score = 0;
@@ -145,10 +145,7 @@ let answerFeed = document.getElementById('answerTxt')
     },
   ];
 
- 
-
- 
-
+ //// Answer Event Listener ////
  if (answerEl) {
    answerEl.addEventListener('click', function(event) {
     
