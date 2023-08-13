@@ -173,7 +173,7 @@ let answerFeed = document.getElementById('answerTxt')
    //// Next Question ////
 
     currentQuestion++;
-    
+    console.log("Next Question");
 //// Answer Feedback Timer ////
 
     setTimeout(() => {
