@@ -8,6 +8,7 @@ let interval;
 let time = document.getElementById('times');
 let timer = 180;
 
+//// Timer ////
 
 const countdown = () => {
   const interval = setInterval(() => {
@@ -24,6 +25,7 @@ const countdown = () => {
             start.addEventListener('click', startGame);
         }
         
+        ///// Start Game function /////
 
         function startGame() {
     countdown();
