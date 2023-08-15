@@ -1,7 +1,7 @@
 function showScores() {
     let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
     
-    // Separate scores
+    // Separate scores by highest to lowest
     highScores.sort(function(a, b) {
         return b.score - a.score;
     });
