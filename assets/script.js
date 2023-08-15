@@ -145,6 +145,15 @@ let answerFeed = document.getElementById('answerTxt')
             { text: 'Using the push() method', correct: true }
         ]
     },
+    {
+        question: 'What is the purpose of the .length property?',
+        answers: [
+            { text: 'To return the number of elements in an array', correct: true },
+            { text: 'To return the number of characters in a string', correct: false },
+            { text: 'To return the number of properties in an object', correct: false },
+            { text: 'To return the number of items in a list', correct: false }
+        ]
+    },
   ];
 
  //// Answer Event Listener ////
