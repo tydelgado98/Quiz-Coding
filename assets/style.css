@@ -9,6 +9,10 @@ nav {
     justify-content: space-between;
     margin-bottom: 13%;
 }
+nav li {
+    list-style: none;
+    margin: 0 10px;
+}
 main {
    
     margin-top: 10%;
