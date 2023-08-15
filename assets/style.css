@@ -93,12 +93,17 @@ main button:hover {
     font-weight: 600;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+.new-score-box h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 #new-score-list{
     list-style: none;
     font-weight: 600;
     font-size: 30px;
     text-align: center;
+    padding: 10px;
 }
  @media screen and (max-width: 992px) {
    #links a{
