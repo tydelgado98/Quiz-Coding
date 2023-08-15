@@ -8,13 +8,13 @@ function showScores() {
 
     // Show scores
 
-    let olList = document.getElementById('new-score-list');
-    olList.innerHTML = ''; // Clear previous scores before showing updated ones
+    let ulList = document.getElementById('new-score-list');
+    ulList.innerHTML = ''; // Clear previous scores before showing updated ones
 
     for (let i = 0; i < highScores.length; i += 1) {
         let liEl = document.createElement('li');
         liEl.textContent = `Score: ${highScores[i].score} | Time: ${highScores[i].time} seconds`;
-        olList.appendChild(liEl);
+        ulList.appendChild(liEl);
     }
 }
 
