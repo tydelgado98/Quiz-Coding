@@ -80,17 +80,18 @@ main button:hover {
 }
 
 .new-score-box{
-    margin: 5%;
-    text-align: center;
+   
+    align-items: center;
     font-size: 30px;
     color: black;
-}
-
-.new-score-list{
-    margin: 5%;
-    text-align: center;
-    font-size: 30px;
-    color: black;
+    background-color: #282828;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.9s;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #new-score-list{
@@ -98,8 +99,6 @@ main button:hover {
     font-weight: 600;
     font-size: 30px;
     text-align: center;
-    background-color: #282828;
-    width: 100%;
 }
  @media screen and (max-width: 992px) {
    #links a{
