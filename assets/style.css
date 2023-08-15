@@ -94,11 +94,12 @@ main button:hover {
 }
 
 #new-score-list{
-    margin: 5%;
     list-style: none;
     font-weight: 600;
     font-size: 30px;
     text-align: center;
+    background-color: #282828;
+    width: 100%;
 }
  @media screen and (max-width: 992px) {
    #links a{
