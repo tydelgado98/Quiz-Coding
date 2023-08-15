@@ -11,7 +11,7 @@ function showScores() {
 
     for (let i = 0; i < highScores.length; i += 1) {
         let liEl = document.createElement('li');
-        liEl.textContent = `Score: ${highScores[i].score}, Time: ${highScores[i].time} seconds`;
+        liEl.textContent = `Score: ${highScores[i].score} Time: ${highScores[i].time} seconds`;
         olList.appendChild(liEl);
     }
 }
