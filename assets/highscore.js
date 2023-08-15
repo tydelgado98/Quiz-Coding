@@ -6,6 +6,8 @@ function showScores() {
         return b.score - a.score;
     });
 
+    // Show scores
+
     let olList = document.getElementById('new-score-list');
     olList.innerHTML = ''; // Clear previous scores before showing updated ones
 
@@ -16,6 +18,7 @@ function showScores() {
     }
 }
 
+// Erase scores
 
 function eraseHighscores() {
     window.localStorage.removeItem('highScores');
