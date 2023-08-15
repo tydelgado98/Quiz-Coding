@@ -98,6 +98,7 @@ main button:hover {
     list-style: none;
     font-weight: 600;
     font-size: 30px;
+    text-align: center;
 }
  @media screen and (max-width: 992px) {
    #links a{
