@@ -110,13 +110,15 @@ main button:hover {
     margin: 5%;
     font-size: 30px;
     color: black;
-    text-align: start; 
+    text-align: start;
+    display: flex;
+    justify-content: space-between; 
+   
 }
-
-#btns:nth-child(2) {
-    text-align: end;
+#btns:first-child {
+    flex: 0; 
+    text-align: center;
 }
-
 #btns button{
     margin: 1%;
     background-color: black;
