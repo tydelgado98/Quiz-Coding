@@ -106,7 +106,12 @@ main button:hover {
     text-align: center;
     padding: 10px;
 }
-
+#btns {
+    margin: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
 #btns button{
     margin: 1%;
     background-color: black;
