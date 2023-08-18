@@ -110,6 +110,7 @@ main button:hover {
 #btns button{
     border-radius: 55px;
     background-color: black;
+    color: white;
 }
  @media screen and (max-width: 992px) {
    #links a{
