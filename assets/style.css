@@ -108,9 +108,12 @@ main button:hover {
 }
 
 #btns button{
-    border-radius: 55px;
+    margin: 1%;
     background-color: black;
     color: white;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.9s;
 }
  @media screen and (max-width: 992px) {
    #links a{
