@@ -107,7 +107,7 @@ main button:hover {
     padding: 10px;
 }
 
-#btn{
+#btns button{
     border-radius: 55px;
     background-color: black;
 }
