@@ -107,7 +107,7 @@ main button:hover {
     padding: 10px;
 }
 
-#new-score-box button{
+#btn{
     border-radius: 55px;
     background-color: black;
 }
