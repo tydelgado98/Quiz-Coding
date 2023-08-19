@@ -111,8 +111,7 @@ main button:hover {
     font-size: 30px;
     color: black;
     text-align: start;
-    display: flex;
-    justify-content: space-between; 
+   text-align: center;
    
 }
 #btns:first-child {
