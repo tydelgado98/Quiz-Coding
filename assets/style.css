@@ -125,7 +125,7 @@ main button:hover {
     border-radius: 20px;
     padding: 10px;
     transition: 0.9s;
-    margin: 40px;
+    margin-right: 40px;
 }
  @media screen and (max-width: 992px) {
    #links a{
