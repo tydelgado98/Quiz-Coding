@@ -143,4 +143,10 @@ main button:hover {
    main p {
          font-size: 20px;
    }
+   #questions {
+    font-size: 20px;
+   }
+    Abutton {
+     font-size: 10px;
+    }
 }
