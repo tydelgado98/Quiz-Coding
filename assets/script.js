@@ -57,6 +57,7 @@ const showAnswers = () => {
   for (let i = 0; i < currentAnswer.length; i++) {
  let Abutton = document.createElement('button');
   Abutton.textContent = currentAnswer[i].text;
+  Abutton.classList.add('custom-button');
   answerEl.appendChild(Abutton);
 }
 }
