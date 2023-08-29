@@ -112,7 +112,6 @@ main button:hover {
     color: black;
     text-align: start;
    text-align: center;
- 
 }
 #btns:first-child {
     flex: 0; 
@@ -126,6 +125,14 @@ main button:hover {
     padding: 10px;
     transition: 0.9s;
     margin-right: 40px;
+}
+#btns button:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    opacity: 75%;
+    transform: scale(1.2);
+    cursor: pointer;
 }
  @media screen and (max-width: 992px) {
    #links a{
