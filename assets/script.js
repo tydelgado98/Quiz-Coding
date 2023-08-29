@@ -232,9 +232,11 @@ let answerFeed = document.getElementById('answerTxt')
   themeEl.on('click', function () {
     if (dark) {
       $('body').css({ 'background-color': '#d9e9e8', color: '#1a1a1a' });
+      $('#questions').css({color: '#1a1a1a'});
       dark = !dark;
     } else {
       $('body').css({ 'background-color': '#1a1a1a', color: '#d9e9e8' });
+      $('#questions').css({color: '#d9e9e8'});
       dark = !dark;
     }
   });
