@@ -228,3 +228,13 @@ let answerFeed = document.getElementById('answerTxt')
   let themeEl = $('#theme-btn');
 
   let dark = true;	 // Set to true for initial dark theme
+
+  themeEl.on('click', function () {
+    if (dark) {
+      $('body').css({ 'background-color': '#d9e9e8', color: '#1a1a1a' });
+      dark = !dark;
+    } else {
+      $('body').css({ 'background-color': '#1a1a1a', color: '#d9e9e8' });
+      dark = !dark;
+    }
+  });
