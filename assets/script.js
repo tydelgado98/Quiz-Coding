@@ -224,4 +224,5 @@ let answerFeed = document.getElementById('answerTxt')
  }
   
 
-  
+  // Making theme switcher work
+  let themeEl = $('#theme-btn');
