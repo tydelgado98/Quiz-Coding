@@ -226,3 +226,5 @@ let answerFeed = document.getElementById('answerTxt')
 
   // Making theme switcher work
   let themeEl = $('#theme-btn');
+
+  let dark = true;	 // Set to true for initial dark theme
